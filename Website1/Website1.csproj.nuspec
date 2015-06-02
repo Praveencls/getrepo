@@ -17,4 +17,9 @@
       <dependency id="SampleDependency" version="1.0" />
     </dependencies>
   </metadata>
+  <files>
+      <file src="bin\Release\*.*" target="content" />
+      <file src="PreDeploy.ps1" target="" />
+  </files>
+
 </package>
